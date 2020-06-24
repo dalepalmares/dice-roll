@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Roll</title>
+    <link rel="stylesheet" href="./build/style.css" />
+  </head>
+  <body>
+    <div class="mx-auto max-w-xl h-screen flex flex-col justify-evenly">
+      <div class="flex flex-wrap justify-evenly" id="die">
+        <img src="./img/Die 1.svg" class="firstDie">
+      </div>
+      <div>
+        <div class="flex justify-evenly" id="buttons">
+          <button
+            class="bg-red-600 text-white py-1 px-8 rounded hover:bg-red-700 active:bg-red-500 text-xl"
+          >
+            -
+          </button>
+          <button
+            class="bg-red-600 text-white py-1 px-8 rounded hover:bg-red-700 active:bg-red-500 text-xl"
+          >
+            Roll
+          </button>
+          <button
+            class="bg-red-600 text-white py-1 px-8 rounded hover:bg-red-700 active:bg-red-500 text-xl"
+          >
+            +
+          </button>
+        </div>
+        <h1 class="text-6xl font-bold text-black text-center">Roll the Dice</h1>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
