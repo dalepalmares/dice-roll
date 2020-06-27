@@ -4,7 +4,7 @@ module.exports = {
     extend: {},
     container: {
       center: true,
-    }
+    },
   },
   variants: {
     backgroundColor: ["responsive", "hover", "focus", "active"],
